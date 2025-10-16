@@ -1,5 +1,5 @@
 {
-  "name": "@dotstarter/sdk",
+  "name": "dotstarter-sdk",
   "version": "0.1.0",
   "description": "Core TypeScript SDK for Polkadot/Substrate blockchain interactions",
   "main": "dist/index.js",
