@@ -1,0 +1,62 @@
+{
+  "name": "@dotstarter/sdk",
+  "version": "0.1.0",
+  "description": "Core TypeScript SDK for Polkadot/Substrate blockchain interactions",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && npm run build:cleanup",
+    "build:cleanup": "node scripts/build-cleanup.js",
+    "build:tsup": "tsup",
+    "dev": "tsc --watch",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts",
+    "test": "vitest",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "polkadot",
+    "substrate",
+    "blockchain",
+    "wallet",
+    "staking",
+    "governance"
+  ],
+  "author": "DotStarter Team",
+  "license": "MIT",
+  "dependencies": {
+    "@polkadot/api": "^10.11.2",
+    "@polkadot/extension-dapp": "^0.46.6",
+    "@polkadot/util": "^12.6.1",
+    "@polkadot/util-crypto": "^12.6.1",
+    "@polkadot/keyring": "^12.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "typescript": "^5.2.2",
+    "tsup": "^7.2.0",
+    "vitest": "^0.34.6",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "eslint": "^8.52.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dotstarter/sdk.git"
+  },
+  "homepage": "https://github.com/dotstarter/sdk#readme",
+  "bugs": {
+    "url": "https://github.com/dotstarter/sdk/issues"
+  }
+}
