@@ -305,21 +305,6 @@ npm run type-check
 - **Phase 4**: Parachain-specific integrations (Moonbeam, Astar, etc.)
 - **Phase 5**: Advanced features (multi-signature, batch transactions)
 
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
-## License
-
-MIT License. See [LICENSE](LICENSE) for details.
-
-## Support
-
-- 📚 [Documentation](https://docs.dotstarter.dev)
-- 💬 [Discord Community](https://discord.gg/dotstarter)
-- 🐛 [Issue Tracker](https://github.com/dotstarter/sdk/issues)
-- 📧 Email: support@dotstarter.dev
-
 ## Acknowledgments
 
 Built with:
