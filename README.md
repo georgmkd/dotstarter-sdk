@@ -1,9 +1,5 @@
 # dotstarter-sdk
 
-[![npm version]](https://www.npmjs.com/package/dotstarter-sdk)
-[![npm downloads]](https://www.npmjs.com/package/dotstarter-sdk)
-[![GitHub]](https://github.com/georgmkd/dotstarter-sdk)
-
 A TypeScript SDK for interacting with Polkadot and Substrate-based blockchains. This SDK provides a unified, developer-friendly interface for wallet management, transfers, staking, governance, and more.
 
 ## Features
