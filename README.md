@@ -1,4 +1,8 @@
-# @dotstarter/sdk
+# dotstarter-sdk
+
+[![npm version]](https://www.npmjs.com/package/dotstarter-sdk)
+[![npm downloads]](https://www.npmjs.com/package/dotstarter-sdk)
+[![GitHub]](https://github.com/georgmkd/dotstarter-sdk)
 
 A TypeScript SDK for interacting with Polkadot and Substrate-based blockchains. This SDK provides a unified, developer-friendly interface for wallet management, transfers, staking, governance, and more.
 
@@ -15,13 +19,13 @@ A TypeScript SDK for interacting with Polkadot and Substrate-based blockchains. 
 ## Installation
 
 ```bash
-npm install @dotstarter/sdk
+npm install dotstarter-sdk
 ```
 
 ## Quick Start
 
 ```typescript
-import { DotStarter } from "@dotstarter/sdk";
+import { DotStarter } from "dotstarter-sdk";
 
 // Initialize the SDK
 const dot = new DotStarter({ 
@@ -215,7 +219,7 @@ import type {
   StakingInfo,
   GovernanceProposal,
   ChainInfo
-} from '@dotstarter/sdk';
+} from 'dotstarter-sdk';
 ```
 
 ## Examples
@@ -223,7 +227,7 @@ import type {
 ### Basic Wallet Integration
 
 ```typescript
-import { DotStarter } from "@dotstarter/sdk";
+import { DotStarter } from "dotstarter-sdk";
 
 async function setupWallet() {
   const dot = new DotStarter();
