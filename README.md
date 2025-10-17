@@ -305,6 +305,21 @@ npm run type-check
 - **Phase 4**: Parachain-specific integrations (Moonbeam, Astar, etc.)
 - **Phase 5**: Advanced features (multi-signature, batch transactions)
 
+## Support the Project
+
+If you find this SDK helpful for your Polkadot development journey, consider supporting the project:
+
+### 💝 Tips Welcome
+**Polkadot Address:** `15woNAUJUyGAMxA54rNMPXrAyKAcshYPGAJDsVquQYjRjtaa`
+
+Your support helps maintain and improve this SDK for the entire Polkadot community!
+
+### 🌟 Other Ways to Support
+- ⭐ Star the repository on GitHub
+- 🐛 Report bugs and suggest features
+- 📢 Share with other developers
+- 🔧 Contribute code improvements
+
 ## Acknowledgments
 
 Built with:
