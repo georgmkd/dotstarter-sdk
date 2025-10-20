@@ -54,10 +54,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dotstarter/sdk.git"
+    "url": "https://github.com/georgmkd/dotstarter-sdk.git"
   },
-  "homepage": "https://github.com/dotstarter/sdk#readme",
+  "homepage": "https://github.com/georgmkd/dotstarter-sdk#readme",
   "bugs": {
-    "url": "https://github.com/dotstarter/sdk/issues"
+    "url": "https://github.com/georgmkd/dotstarter-sdk/issues"
   }
 }
